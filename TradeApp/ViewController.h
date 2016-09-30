@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+@import Firebase;
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+{
+    UIImagePickerController *ipc;
+    UIPopoverController *popover;
+}
 
+@property (weak, nonatomic) IBOutlet UIButton *btnGallery;
+@property (weak, nonatomic) IBOutlet UIButton *btnCamera;
+@property (weak, nonatomic) IBOutlet UIButton *btnPhotoGallery;
+
+@property (weak, nonatomic) IBOutlet UIImageView *ivPickedImage;
 
 @end
-
