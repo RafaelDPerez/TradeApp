@@ -16,6 +16,7 @@
 		455797B21D9730FD00B648EB /* TradeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455797B11D9730FD00B648EB /* TradeAppTests.m */; };
 		455797BD1D9730FD00B648EB /* TradeAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455797BC1D9730FD00B648EB /* TradeAppUITests.m */; };
 		455797CB1D97390500B648EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 455797CA1D97390500B648EB /* GoogleService-Info.plist */; };
+		4574AB1B1DB8574000D48A59 /* TradeAppBusinessViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4574AB1A1DB8574000D48A59 /* TradeAppBusinessViewController1.m */; };
 		9669A11B1917DCAE71FBDD04 /* libPods-TradeAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF57B6F8CBD1C6541867E0 /* libPods-TradeAppUITests.a */; };
 		9CC513BDF0E8F1924421EC13 /* libPods-TradeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B94A9224ED5250FEB1A9CC46 /* libPods-TradeApp.a */; };
 		BB57B20EEC17F40E9D398EEE /* libPods-TradeAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4C0BB50AAA8B6216AA3830 /* libPods-TradeAppTests.a */; };
@@ -58,6 +59,8 @@
 		455797BC1D9730FD00B648EB /* TradeAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradeAppUITests.m; sourceTree = "<group>"; };
 		455797BE1D9730FD00B648EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		455797CA1D97390500B648EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4574AB191DB8574000D48A59 /* TradeAppBusinessViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradeAppBusinessViewController1.h; sourceTree = "<group>"; };
+		4574AB1A1DB8574000D48A59 /* TradeAppBusinessViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradeAppBusinessViewController1.m; sourceTree = "<group>"; };
 		5FBF57B6F8CBD1C6541867E0 /* libPods-TradeAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TradeAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD49E87E2E51F411D005784 /* Pods-TradeAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradeAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TradeAppUITests/Pods-TradeAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE4C0BB50AAA8B6216AA3830 /* libPods-TradeAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TradeAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +133,8 @@
 				455797A81D9730FD00B648EB /* Info.plist */,
 				455797CA1D97390500B648EB /* GoogleService-Info.plist */,
 				455797971D9730FD00B648EB /* Supporting Files */,
+				4574AB191DB8574000D48A59 /* TradeAppBusinessViewController1.h */,
+				4574AB1A1DB8574000D48A59 /* TradeAppBusinessViewController1.m */,
 			);
 			path = TradeApp;
 			sourceTree = "<group>";
@@ -454,6 +459,7 @@
 				4557979F1D9730FD00B648EB /* ViewController.m in Sources */,
 				4557979C1D9730FD00B648EB /* AppDelegate.m in Sources */,
 				455797991D9730FD00B648EB /* main.m in Sources */,
+				4574AB1B1DB8574000D48A59 /* TradeAppBusinessViewController1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
