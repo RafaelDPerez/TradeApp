@@ -611,11 +611,14 @@
 			baseConfigurationReference = D5CC31ED1118F4AE7AD49459 /* Pods-TradeApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Pennington (26AZ8MV8LY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9ZZEJK9DFN;
 				INFOPLIST_FILE = TradeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelperez.TradeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maranta.TradeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -624,11 +627,14 @@
 			baseConfigurationReference = EDEBF291085B42C6DFB7ABD2 /* Pods-TradeApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: James Pennington (9ZZEJK9DFN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9ZZEJK9DFN;
 				INFOPLIST_FILE = TradeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelperez.TradeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maranta.TradeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
